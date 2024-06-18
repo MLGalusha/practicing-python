@@ -31,3 +31,23 @@ for i in range(len(birds_list[0])):
 
 # Print footer
 print(divider)
+```
+
+## Output
+
+'''
+---------------------------------------------------------
+NAME               | SIZE (CM)  | WEIGHT (G) | LIFESPAN
+---------------------------------------------------------
+Magpie             | 60         | 210        | 3.5
+Cockatoo           | 70         | 900        | 45
+Hummingbird        | 10         | 5          | 5
+Ostrich            | 270        | 136000     | 40
+Bald Eagle         | 100        | 26000      | 30
+Emperor Penguin    | 129        | 112000     | 20
+Lyrebird           | 90         | 5200       | 30
+Peacock            | 105        | 28600      | 15
+Toucan             | 60         | 4180       | 20
+Helmeted Hornbill  | 120        | 2900       | 30
+---------------------------------------------------------
+```
