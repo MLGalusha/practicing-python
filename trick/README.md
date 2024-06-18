@@ -17,7 +17,7 @@ birds_list = [
 ]
 
 # Header
-header = f"{'NAME':<15} | {'SIZE (CM)':<15} | {'WEIGHT (G)':<15} | {'LIFESPAN':<15}"
+header = f"{'NAME':<18} | {'SIZE (CM)':<10} | {'WEIGHT (G)':<10} | {'LIFESPAN':<10}"
 divider = "-" * len(header)
 
 # Print header
@@ -27,7 +27,7 @@ print(divider)
 
 # Print each bird's details
 for i in range(len(birds_list[0])):
-    print(f"{birds_list[0][i]:<15} | {birds_list[1][i]:<15} | {birds_list[2][i]:<15} | {birds_list[3][i]:<15}")
+    print(f"{birds_list[0][i]:<18} | {birds_list[1][i]:<10} | {birds_list[2][i]:<10} | {birds_list[3][i]:<10}")
 
 # Print footer
 print(divider)
