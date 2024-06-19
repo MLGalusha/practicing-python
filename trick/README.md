@@ -106,7 +106,7 @@ for i in range(len(birds_list[0])):
 print(divider)
 
 ```
-
+## Output
 ```markdown
 -----------------------------------------------------
 NAME              | SIZE (CM) | WEIGHT (G) | LIFESPAN
